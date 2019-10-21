@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cadetblue;
+}
+
+.main{
+    background-color: crimson;
+    width: 400px;
+    height: 800px;
+    border: 2px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+.main h1{
+    color: white;
+    text-align: center;
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main label{
+    color: white;
+    margin: 10px;
+}
+
+.vistaFotos{
+    background-color: crimson;
+    width: 950px;
+    height: 800px;
+    border: 2px solid black;
+    margin: 20px;
+    float: right;
+}
+
+.vistaFotos #fotos article{
+    width: 150px;
+    padding: 2px;
+    float: left;
+    margin-right: 2px;
+}
